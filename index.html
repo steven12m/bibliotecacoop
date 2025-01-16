@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulares Vigentes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Circulares Vigentes</h1>
+    </header>
+
+    <main>
+        <section class="actions">
+            <button onclick="addCircular()">Subir Nueva Circular</button>
+        </section>
+
+        <section class="circulars">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Archivo</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="circular-list">
+                    <!-- Ejemplo de fila -->
+                    <tr>
+                        <td>Ejemplo de Circular</td>
+                        <td><a href="#" target="_blank">Ver PDF</a></td>
+                        <td>
+                            <button class="btn-edit">Cambiar</button>
+                            <button class="btn-delete">Eliminar</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function addCircular() {
+            alert('Esta función será implementada más adelante.');
+        }
+    </script>
+</body>
+</html>
